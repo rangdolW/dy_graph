@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #content {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  canvas {
+    margin-bottom: 30px;
+  }
+  
+  .controls-container {
+    background-color: #fafafa; 
+    padding: 20px;
+    border-radius: 25px; 
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.05); 
+  }
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="range"], input[type="text"] {
+    flex-grow: 1;
+    margin-left: 15px; 
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+  }
+  label {
+    flex-basis: 40%; 
+    text-align: left;
+  }
+  
